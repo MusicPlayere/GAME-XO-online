@@ -15,13 +15,6 @@ function init(player, OPPONENT){
     // By default the first player to play is the human
     let currentPlayer = player.man;
 
-    // load X & O images
-    const xImage = new Image();
-    xImage.src = "img/X.png";
-
-    const oImage = new Image();
-    oImage.src = "img/O.png";
-
     // Win combinations
     const COMBOS = [
         [0, 1, 2],
